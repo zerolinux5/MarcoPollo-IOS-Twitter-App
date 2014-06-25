@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)postItButtonPressed:(id)sender {
+    NSLog(@"Post It Button Was Pressed!");
+}
 @end
