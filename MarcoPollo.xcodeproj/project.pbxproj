@@ -21,6 +21,7 @@
 		EA3320C2195A793F00FF047B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3320A4195A793F00FF047B /* UIKit.framework */; };
 		EA3320CA195A793F00FF047B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA3320C8195A793F00FF047B /* InfoPlist.strings */; };
 		EA3320CC195A793F00FF047B /* MarcoPolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3320CB195A793F00FF047B /* MarcoPolloTests.m */; };
+		EA3320D6195A8B2A00FF047B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3320D5195A8B2A00FF047B /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EA3320C7195A793F00FF047B /* MarcoPolloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarcoPolloTests-Info.plist"; sourceTree = "<group>"; };
 		EA3320C9195A793F00FF047B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA3320CB195A793F00FF047B /* MarcoPolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarcoPolloTests.m; sourceTree = "<group>"; };
+		EA3320D5195A8B2A00FF047B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3320D6195A8B2A00FF047B /* Social.framework in Frameworks */,
 				EA3320A3195A793F00FF047B /* CoreGraphics.framework in Frameworks */,
 				EA3320A5195A793F00FF047B /* UIKit.framework in Frameworks */,
 				EA3320A1195A793F00FF047B /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		EA33209F195A793F00FF047B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA3320D5195A8B2A00FF047B /* Social.framework */,
 				EA3320A0195A793F00FF047B /* Foundation.framework */,
 				EA3320A2195A793F00FF047B /* CoreGraphics.framework */,
 				EA3320A4195A793F00FF047B /* UIKit.framework */,
