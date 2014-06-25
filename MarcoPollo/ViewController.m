@@ -27,6 +27,6 @@
 }
 
 - (IBAction)postItButtonPressed:(id)sender {
-    NSLog(@"Post It Button Was Pressed!");
+    NSLog(@"Post It Button Was Pressed!: %@", self.tweetTextView.text);
 }
 @end
